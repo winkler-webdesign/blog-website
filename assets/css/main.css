@@ -4,12 +4,8 @@
 @import "_components.css";
 @import "_elements.css";
 
-html {
-  height: 100%;
-}
 body {
   display: grid;
-  min-height: 100%;
   grid-template-rows: var(--header-size) 1fr var(--footer-size);
 }
 .content-wrapper {
