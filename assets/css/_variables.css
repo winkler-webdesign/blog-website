@@ -1,4 +1,11 @@
 :root {
-  --header-size: 100px;
-  --footer-size: 200px;
+  /* Colors */
+  --primary: #3d5a80;
+  --primary-light: #e4eaf2;
+  --primary-dark: #141d29;
+  --secondary: #98c1d9;
+  --accent: #ee6c4d;
+  --text-primary: #293241;
+
+  /* Global Styles */
 }

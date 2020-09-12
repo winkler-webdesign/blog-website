@@ -1,4 +1,4 @@
 .card {
-  border: 1px solid red;
+  background-color: var(--primary-light);
   grid-column: span 6;
 }
