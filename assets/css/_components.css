@@ -1,4 +1,4 @@
 .card {
   background-color: var(--primary-light);
-  grid-column: span 6;
+  grid-column: span 12;
 }

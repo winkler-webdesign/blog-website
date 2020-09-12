@@ -66,6 +66,9 @@ footer {
 
 /* Mobile */
 @media (min-width: 576px) {
+  .card {
+    grid-column: span 6;
+  }
 }
 
 /* Tablet */
