@@ -23,17 +23,17 @@ header {
 nav ul {
   list-style: none;
 }
-nav ul li {
+nav li {
   display: inline-block;
   margin: 1rem 1rem;
 }
-nav ul li a {
+nav li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 2rem;
 }
-nav ul li i {
+nav li i {
   margin: 0 1rem;
 }
 
@@ -41,13 +41,17 @@ nav ul li i {
 main {
   padding: 2.5rem 1.5rem;
 }
-.content-wrapper {
+#articles-wrapper {
   max-width: 1150px;
   width: 100%;
   margin: 0 auto;
   padding: 0px 15px;
 }
-.article-wrapper {
+#articles-wrapper #articles-heading {
+  text-align: center;
+  padding: 1rem;
+}
+#articles-wrapper .article-wrapper {
   padding: 5rem 0;
   min-height: 80vh;
   margin: auto;
@@ -65,16 +69,20 @@ footer {
 /* Media-Queries */
 
 /* Mobile */
-@media (min-width: 576px) {
-  .card {
+@media screen and (min-width: 576px) {
+  .blog-post-card {
     grid-column: span 6;
   }
 }
 
 /* Tablet */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   header {
     flex-direction: row;
     justify-content: space-between;
   }
+}
+
+/* Desktop */
+@media screen and (min-width: 1150px) {
 }
