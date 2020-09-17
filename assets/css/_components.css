@@ -52,12 +52,12 @@
 }
 
 #subscribe-form input {
-  width: 100%;
+  width: 70%;
+  margin: 0.5rem 0;
 }
 
 #subscribe-form .subscribe-button {
   background-color: var(--accent);
   padding: 1rem;
   color: white;
-  margin-top: 1rem;
 }
