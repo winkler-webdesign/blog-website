@@ -1,3 +1,5 @@
+/* HTML Components */
+
 /* Blog-Post-Card */
 .blog-post-card {
   display: flex;
@@ -60,4 +62,15 @@
   background-color: var(--accent);
   padding: 1rem;
   color: white;
+}
+
+/* Social Buttons */
+.social-buttons {
+  text-align: center;
+}
+
+.social-button {
+  color: white;
+  font-size: 4rem;
+  padding: 0 0.5rem;
 }
